@@ -11,5 +11,5 @@ function newElement(event) {
   let section = document.getElementById("section");
   section.appendChild(p); // Ajoute le paragraphe dans la section.
 
-  document.getElementById("User").value = "";
+  document.getElementById("Use").value = "";
 }
