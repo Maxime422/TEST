@@ -4,7 +4,7 @@ form.addEventListener("click", newElement);
 function newElement(event) {
   event.preventDefault();
 
-  let User = document.getElementById("").value;
+  let User = document.getElementById("U").value;
   let p = document.createElement("p");
   p.textContent = `${User}, Bienvenue`;
 
