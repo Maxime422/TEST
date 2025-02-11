@@ -4,12 +4,22 @@
   "description": "Node cours 07 02 2025",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "hello": "node hello.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
   "dependencies": {
+    "express": "^4.21.2",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "cypress": "^14.0.2",
+    "eslint": "^9.20.0",
+    "globals": "^15.14.0",
+    "jest": "^29.7.0"
   }
 }
