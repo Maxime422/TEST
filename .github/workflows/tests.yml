@@ -7,7 +7,7 @@ pull_request:
     branches:
         - main
 jobs:
-  test:
+    test:
         runs-on: ubuntu-latest
         steps:
             - name: Cloner le repo
