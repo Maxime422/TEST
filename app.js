@@ -9,7 +9,7 @@ function newElement(event) {
   p.textContent = `${User}, Bienvenue`;
 
   let section = document.getElementById("section");
-  section.appendChild(p); // Ajoute le paragraphe dans la section
+  section.appendChild(p); // Ajoute le paragraphe dans la section.
 
   document.getElementById("User").value = "";
 }
