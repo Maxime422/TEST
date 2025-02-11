@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 describe(`Test e2e - Page d'accueil`, () => {
     it(`Vérfie que le titre est correct`, () => {
         cy.visit(`http://127.0.0.1:3000/index.html`);

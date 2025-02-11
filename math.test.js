@@ -1,4 +1,4 @@
-const myMaths = require("./math.js");
+const myMaths = require("./math");
 
 test(`Addition de 2 et 3 doit retourner 5`, () => {
     expect(myMaths.add(2,3)).toBe(5);

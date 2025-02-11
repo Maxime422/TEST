@@ -1,12 +1,26 @@
 {
     "env": {
-    "browser": true,
-    "es2021": true
+        "browser": true,
+        "es2021": true,
+        "commonjs": true,
+        "jest": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "rules": {
-    "no-unused-vars": "warn",
-    "eqeqeq": "error"
-    }
+        "no-unused-vars": "warn",
+        "eqeqeq": "error"
+    },
+    "overrides": [
+        {
+            "files":[
+                "**/*.spec.js",
+                "**/*.test.js"
+            ],
+            "env": {
+                "jest": true
+            }
+        }
+    ]
 }
    
